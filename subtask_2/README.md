@@ -1,11 +1,11 @@
 # Second subtask for ruby
 
-#script.rb<br />
+# script.rb<br />
   &nbsp;&nbsp;It's a simple Ruby script with Class that holds inventory and can calculate different stats for the shop.<br />
   &nbsp;&nbsp;Usage:<br />
   &nbsp;&nbsp;`ruby shop.rb`<br />
 
-###Methods:<br />
+### Methods:<br />
 &nbsp;1.`item_in_stock`<br />
 &nbsp;&nbsp;Return all item NAMES in stock only, sorted alphabetically<br />
 &nbsp;2.`affordable`<br />
