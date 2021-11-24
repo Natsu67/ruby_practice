@@ -1,10 +1,7 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics/LineLength
-# rubocop:disable Metrics/MethodLength
 
 # Generates state reports
 module ReportStates
+  
   def report_states(conn, template)
     offices = conn.exec('SELECT * FROM offices ORDER BY state;')
 

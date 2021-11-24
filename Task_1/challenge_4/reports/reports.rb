@@ -1,10 +1,5 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics/LineLength
-
 require_relative 'states'
 
-# Generates reports
 module Reports
   include ReportStates
 
