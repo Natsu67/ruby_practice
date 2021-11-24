@@ -1,6 +1,12 @@
 require_relative 'db/migrate_data_to_db'
-require './reports/reports'
+require './reports/states_report'
 
-include Reports
-conn = migrate_data_to_db()
-reports(conn)
+class Start
+    def initialize()
+        conn = migrate_data_to_db()
+    
+        StatesReport.new(conn)
+    end
+end
+
+Start.new()
